@@ -51,14 +51,38 @@
   font-size: 0.85em;
 }
 
-/* Force light theme */
+/* Force light theme - override all dark mode */
 :root {
-  color-scheme: light only;
+  color-scheme: light !important;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background-color: #fff;
-    --text-color: #222;
-  }
+html, html[data-theme="dark"] {
+  --background-color: #fff !important;
+  --text-color: #222 !important;
+  --muted-text-color: #6c757d !important;
+  --primary-color: #1a8cff !important;
+  --masthead-background-color: #fff !important;
+  --footer-background-color: #fff !important;
+  --link-color: #1a8cff !important;
+  --border-color: #e0e0e0 !important;
+  background-color: #fff !important;
+  color: #222 !important;
+}
+
+body {
+  background-color: #fff !important;
+  color: #222 !important;
+}
+
+.masthead {
+  background-color: #fff !important;
+}
+
+.page__footer {
+  background-color: #fff !important;
+  color: #222 !important;
+}
+
+a {
+  color: #1a8cff !important;
 }
