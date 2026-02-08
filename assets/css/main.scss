@@ -42,6 +42,53 @@
 ;
 
 /* Custom styles */
+
+/* Masthead styling - match background color */
+.masthead {
+  background: #fff !important;
+  background-color: #fff !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
+}
+
+.masthead::after {
+  display: none !important; /* Remove bottom border */
+}
+
+.masthead__menu-item {
+  background-color: #fff !important;
+}
+
+/* Slightly smaller fonts */
+html {
+  font-size: 16px !important; /* Standard base font size */
+}
+
+body {
+  font-size: 0.95em !important;
+}
+
+.page__content {
+  font-size: 1em !important;
+}
+
+.page__content p, .page__content li {
+  font-size: 1em !important;
+}
+
+h1, .page__title {
+  font-size: 1.8em !important;
+}
+
+h2 {
+  font-size: 1.4em !important;
+}
+
+h3 {
+  font-size: 1.2em !important;
+}
+
+/* Sidebar fonts */
 .author__content {
   font-size: 0.85em;
 }
@@ -50,12 +97,30 @@
   font-size: 0.85em;
 }
 
+.author__name {
+  font-size: 1em !important;
+}
+
+.author__bio {
+  font-size: 0.9em !important;
+}
+
+/* Make sidebar links (Email, GitHub, LinkedIn) match text color, not blue */
+.author__urls a {
+  color: #222 !important;
+}
+
+.author__urls a:hover {
+  color: #1a8cff !important; /* Blue on hover */
+}
+
 /* Force light theme - override all dark mode */
 :root {
   color-scheme: light !important;
 }
 
 html, html[data-theme="dark"] {
+  --global-bg-color: #fff !important;
   --background-color: #fff !important;
   --text-color: #222 !important;
   --muted-text-color: #6c757d !important;
@@ -74,6 +139,7 @@ body {
 }
 
 .masthead {
+  background: #fff !important;
   background-color: #fff !important;
 }
 
