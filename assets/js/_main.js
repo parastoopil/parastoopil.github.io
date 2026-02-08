@@ -2,49 +2,28 @@
    Various functions that we want to use within the template
    ========================================================================== */
 
-// Determine the expected state of the theme toggle, which can be "dark", "light", or
-// "system". Default is "system".
+// Force light theme always
 let determineThemeSetting = () => {
-  let themeSetting = localStorage.getItem("theme");
-  return (themeSetting != "dark" && themeSetting != "light" && themeSetting != "system") ? "system" : themeSetting;
+  return "light";
 };
 
-// Determine the computed theme, which can be "dark" or "light". If the theme setting is
-// "system", the computed theme is determined based on the user's system preference.
+// Force light theme always
 let determineComputedTheme = () => {
-  let themeSetting = determineThemeSetting();
-  if (themeSetting != "system") {
-    return themeSetting;
-  }
-  return (userPref && userPref("(prefers-color-scheme: dark)").matches) ? "dark" : "light";
+  return "light";
 };
 
-// detect OS/browser preference
-const browserPref = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+// Force light theme
+const browserPref = 'light';
 
-// Set the theme on page load or when explicitly called
+// Set the theme on page load or when explicitly called - always light
 let setTheme = (theme) => {
-  const use_theme =
-    theme ||
-    localStorage.getItem("theme") ||
-    $("html").attr("data-theme") ||
-    browserPref;
-
-  if (use_theme === "dark") {
-    $("html").attr("data-theme", "dark");
-    $("#theme-icon").removeClass("fa-sun").addClass("fa-moon");
-  } else if (use_theme === "light") {
-    $("html").removeAttr("data-theme");
-    $("#theme-icon").removeClass("fa-moon").addClass("fa-sun");
-  }
+  $("html").removeAttr("data-theme");
+  $("#theme-icon").removeClass("fa-moon").addClass("fa-sun");
 };
 
-// Toggle the theme manually
+// Toggle the theme manually - disabled, always stays light
 var toggleTheme = () => {
-  const current_theme = $("html").attr("data-theme");
-  const new_theme = current_theme === "dark" ? "light" : "dark";
-  localStorage.setItem("theme", new_theme);
-  setTheme(new_theme);
+  // Do nothing - keep light theme
 };
 
 /* ==========================================================================
