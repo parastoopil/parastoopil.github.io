@@ -1,3 +1,21 @@
 <script type="module" src="{{ base_path }}/assets/js/main.min.js"></script>
 
+<!-- Force light theme after main.js loads -->
+<script>
+  // Override theme to always be light
+  document.documentElement.removeAttribute('data-theme');
+  localStorage.setItem('theme', 'light');
+  
+  // Run again after DOM is ready to catch any late theme changes
+  document.addEventListener('DOMContentLoaded', function() {
+    document.documentElement.removeAttribute('data-theme');
+    localStorage.setItem('theme', 'light');
+  });
+  
+  // Also run on window load
+  window.addEventListener('load', function() {
+    document.documentElement.removeAttribute('data-theme');
+  });
+</script>
+
 {% include analytics.html %}
