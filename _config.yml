@@ -12,7 +12,7 @@ site_theme               : "air" # The available themes options are "default", "
 title                    : "Home"
 title_separator          : "-"
 name                     : &name "Parastoo Pilevar"
-description              : &description "Ph.D. student in ECE | Efficient Deep Learning · Model Quantization · VLMs on Edge"
+description              : &description "Ph.D. student in Computer Engineering"
 url                      : https://parastoopil.github.io
 baseurl                  : ""
 repository               : "parastoopil/parastoopil.github.io"
@@ -25,11 +25,11 @@ author:
   avatar           : "profile.png"
   name             : "Parastoo Pilevar"
   pronouns         : # example: "she/her"  
-  bio              : "Ph.D. student in ECE @ UMD · Efficient deep learning for VLMs and VLAs on edge platforms"
-  location         : "College Park, MD"
+  bio              : "Ph.D. student"
+  location         : "United States"
   employer         : "University of Maryland, College Park"
-  uri              : https://parastoopil.github.io
-  email            : "pilevar@umd.edu"
+  uri              : # URL
+  email            : "pilevar@umd.edu" 
 
   # Academic websites
   academia         : # URL
@@ -83,6 +83,10 @@ author:
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
+  books:
+    title: 'Books'
+  manuscripts:
+    title: 'Journal Articles'    
   conferences:
     title: 'Conference Papers'
 

@@ -11,62 +11,54 @@ redirect_from:
 
 Education
 ======
+* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* M.S. in Jekyll, GitHub University, 2014
+* B.S. in GitHub, GitHub University, 2012
 
-**University of Maryland, College Park** — *2025 – Present*
-Ph.D. in Electrical and Computer Engineering · M.S. expected 2026 · GPA: 3.9/4.0
-Advisor: [Ang Li](https://www.ang-li.com/) · [CASE Lab](https://www.ang-li.com/lab/)
-Coursework: Advanced Numerical Optimization, Selected Topics in ML, Convex Optimization, Information Theory, Estimation and Detection Theory, Advanced Digital Signal Processing
-
-**Sharif University of Technology** — *2015 – 2020*
-B.S. in Electrical Engineering · GPA: 3.61/4.0
-Advisor: Mohammadreza Pakravan · Tehran, Iran
-Thesis: Hardware tester for JTAG chain, Ethernet, and E1 interfaces
-
----
-
-Research Experience
+Work experience
 ======
+* Spring 2024: Academic Pages Collaborator
+  * GitHub University
+  * Duties includes: Updates and improvements to template
+  * Supervisor: The Users
 
-**Graduate Research Assistant** — *2025 – Present*
-University of Maryland, College Park — CASE Lab
+* Fall 2015: Research Assistant
+  * GitHub University
+  * Duties included: Merging pull requests
+  * Supervisor: Professor Hub
 
-- Designed and ran systematic post-training quantization (PTQ) experiments across multiple VLM architectures to study calibration-data sensitivity, demonstrating that modality-skewed calibration sets cause measurable accuracy degradation in compressed models.
-- Implemented a feature-space rectification method for quantized vision backbones on SWaP-constrained edge platforms; trained a frozen-backbone LoRA adapter using source-domain data only, recovering most of the PTQ robustness gap under sensor noise and weather corruption.
-- Built PTQ evaluation pipelines tracking accuracy, memory footprint, and latency trade-offs across 4-bit and 8-bit configurations on standard robustness benchmarks (ImageNet-C, PACS-style shifts).
-
-**Research Assistant** — *2022 – 2023*
-University of Tehran — Communication Networks Research Group · Supervisor: P. Shariatpanahi
-
-- Designed and evaluated cache-replacement policies for edge networks using federated reinforcement learning and federated multi-armed bandit frameworks.
-- Investigated privacy-preserving learning strategies in distributed multi-agent systems.
-
----
+* Summer 2015: Research Assistant
+  * GitHub University
+  * Duties included: Tagging issues
+  * Supervisor: Professor Git
+  
+Skills
+======
+* Skill 1
+* Skill 2
+  * Sub-skill 2.1
+  * Sub-skill 2.2
+  * Sub-skill 2.3
+* Skill 3
 
 Publications
 ======
-
-<ul>{% for post in site.publications reversed %}
-  {% include archive-single-cv.html %}
-{% endfor %}</ul>
-
----
-
+  <ul>{% for post in site.publications reversed %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+  
+Talks
+======
+  <ul>{% for post in site.talks reversed %}
+    {% include archive-single-talk-cv.html  %}
+  {% endfor %}</ul>
+  
 Teaching
 ======
-
-<ul>{% for post in site.teaching reversed %}
-  {% include archive-single-cv.html %}
-{% endfor %}</ul>
-
----
-
-Technical Skills
+  <ul>{% for post in site.teaching reversed %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+  
+Service and leadership
 ======
-
-**Programming Languages:** Python · MATLAB · C · SQL · Bash
-
-**ML & Deep Learning:** PyTorch · TensorFlow · Keras · Hugging Face Transformers · scikit-learn
-
-**Data & Scientific Computing:** NumPy · pandas · SciPy · PySpark · Matplotlib · Seaborn
-
-**Systems & Tools:** Linux · Git
+* Currently signed in to 43 different slack teams

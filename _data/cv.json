@@ -1,118 +1,152 @@
 {
   "basics": {
-    "name": "Parastoo Pilevar",
-    "email": "pilevar@umd.edu",
-    "phone": "+1-240-736-6303",
-    "website": "https://parastoopil.github.io",
-    "summary": "Ph.D. student in ECE at UMD working on efficient and robust deep learning for VLMs and VLAs on edge and robotic platforms. Research centers on model quantization, OOD robustness, and accuracy–memory–latency trade-offs for deployment-constrained perception.",
+    "name": "Your Sidebar Name",
+    "email": "none@example.org",
+    "phone": "",
+    "website": "https://academicpages.github.io",
+    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
     "location": {
-      "city": "College Park",
+      "address": "",
+      "postalCode": "",
+      "city": "Earth",
       "countryCode": "US",
-      "region": "MD"
+      "region": ""
     },
     "profiles": [
       {
-        "network": "GitHub",
-        "username": "parastoopil",
-        "url": "https://github.com/parastoopil"
+        "network": "Google Scholar",
+        "username": "",
+        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
       },
       {
-        "network": "LinkedIn",
-        "username": "parastoopilevar",
-        "url": "https://linkedin.com/in/parastoopilevar"
+        "network": "ORCID",
+        "username": "",
+        "url": "https://orcid.org/yourorcidurl"
+      },
+      {
+        "network": "GitHub",
+        "username": "academicpages",
+        "url": "https://github.com/academicpages"
       }
     ]
   },
+  "work": [],
   "education": [
     {
-      "institution": "University of Maryland, College Park",
-      "area": "Electrical and Computer Engineering",
-      "studyType": "Ph.D. (M.S. expected 2026)",
-      "startDate": "2025",
-      "endDate": "Present",
-      "gpa": "3.9/4.0",
-      "courses": [
-        "Advanced Numerical Optimization",
-        "Selected Topics in ML",
-        "Convex Optimization",
-        "Information Theory",
-        "Estimation and Detection Theory",
-        "Advanced Digital Signal Processing"
-      ]
+      "institution": "GitHub University",
+      "area": "Ph.D in Version Control Theory",
+      "studyType": "",
+      "startDate": "",
+      "endDate": "2018",
+      "gpa": null,
+      "courses": []
     },
     {
-      "institution": "Sharif University of Technology",
-      "area": "Electrical Engineering",
-      "studyType": "B.S.",
-      "startDate": "2015",
-      "endDate": "2020",
-      "gpa": "3.61/4.0",
-      "courses": [
-        "Digital Signal Processing",
-        "Analog Circuits",
-        "Communications Systems",
-        "Numerical Methods"
-      ]
+      "institution": "GitHub University",
+      "area": "M.S. in Jekyll",
+      "studyType": "",
+      "startDate": "",
+      "endDate": "2014",
+      "gpa": null,
+      "courses": []
+    },
+    {
+      "institution": "GitHub University",
+      "area": "B.S. in GitHub",
+      "studyType": "",
+      "startDate": "",
+      "endDate": "2012",
+      "gpa": null,
+      "courses": []
     }
   ],
-  "work": [
-    {
-      "company": "University of Maryland, College Park — CASE Lab",
-      "position": "Graduate Research Assistant",
-      "startDate": "2025",
-      "endDate": "Present",
-      "summary": "Research on efficient and robust deep learning for VLMs and VLAs on edge platforms.",
-      "highlights": [
-        "Designed systematic PTQ experiments across VLM architectures studying calibration-data sensitivity",
-        "Implemented feature-space rectification (Recti-Q) with frozen-backbone LoRA for OOD-robust quantized perception",
-        "Built PTQ evaluation pipelines tracking accuracy, memory, and latency across 4-bit and 8-bit configurations"
-      ]
-    },
-    {
-      "company": "University of Tehran — Communication Networks Research Group",
-      "position": "Research Assistant",
-      "startDate": "2022",
-      "endDate": "2023",
-      "summary": "Research on federated learning for edge network optimization.",
-      "highlights": [
-        "Designed cache-replacement policies for edge networks using federated RL and multi-armed bandit frameworks",
-        "Investigated privacy-preserving learning strategies in distributed multi-agent systems"
-      ]
-    }
-  ],
-  "skills": [
-    {
-      "name": "Programming",
-      "keywords": ["Python", "MATLAB", "C", "SQL", "Bash"]
-    },
-    {
-      "name": "ML & Deep Learning",
-      "keywords": ["PyTorch", "TensorFlow", "Keras", "Hugging Face Transformers", "scikit-learn"]
-    },
-    {
-      "name": "Data & Scientific Computing",
-      "keywords": ["NumPy", "pandas", "SciPy", "PySpark", "Matplotlib", "Seaborn"]
-    },
-    {
-      "name": "Systems & Tools",
-      "keywords": ["Linux", "Git"]
-    }
-  ],
+  "skills": [],
+  "languages": [],
+  "interests": [],
+  "references": [],
   "publications": [
     {
-      "name": "Recti-Q: Feature-Space Rectification for OOD-Robust Quantized Perception in Edge Robotics",
-      "publisher": "IROS 2026",
-      "releaseDate": "2026",
-      "summary": "H. Yaghoubi*, P. Pilevar*, M. Lin (*equal contribution). Identifies and quantifies the OOD robustness gap introduced by 4-bit PTQ in large vision backbones on resource-constrained robotic platforms, and proposes a frozen-backbone LoRA adapter that preserves PTQ memory savings while closing most of the robustness gap."
+      "name": "Paper Title Number 1",
+      "publisher": "Journal 1",
+      "releaseDate": "2009-10-01",
+      "website": "https://academicpages.github.io/files/paper1.pdf",
+      "summary": "This paper is about the number 1. The number 2 is left for future work."
+    },
+    {
+      "name": "Paper Title Number 2",
+      "publisher": "Journal 1",
+      "releaseDate": "2010-10-01",
+      "website": "https://academicpages.github.io/files/paper2.pdf",
+      "summary": "This paper is about the number 2. The number 3 is left for future work."
+    },
+    {
+      "name": "Paper Title Number 3",
+      "publisher": "Journal 1",
+      "releaseDate": "2015-10-01",
+      "website": "https://academicpages.github.io/files/paper3.pdf",
+      "summary": "This paper is about the number 3. The number 4 is left for future work."
+    },
+    {
+      "name": "Paper Title Number 4",
+      "publisher": "GitHub Journal of Bugs",
+      "releaseDate": "2024-02-17",
+      "website": "https://academicpages.github.io/files/paper3.pdf",
+      "summary": "This paper is about fixing template issue #693."
+    }
+  ],
+  "presentations": [
+    {
+      "name": "Talk 1 on Relevant Topic in Your Field",
+      "event": "UC San Francisco, Department of Testing",
+      "date": "2012-03-01",
+      "location": "San Francisco, CA, USA",
+      "description": ""
+    },
+    {
+      "name": "Tutorial 1 on Relevant Topic in Your Field",
+      "event": "UC-Berkeley Institute for Testing Science",
+      "date": "2013-03-01",
+      "location": "Berkeley, CA, USA",
+      "description": ""
+    },
+    {
+      "name": "Talk 2 on Relevant Topic in Your Field",
+      "event": "London School of Testing",
+      "date": "2014-02-01",
+      "location": "London, UK",
+      "description": ""
+    },
+    {
+      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
+      "event": "Testing Institute of America 2014 Annual Conference",
+      "date": "2014-03-01",
+      "location": "Los Angeles, CA, USA",
+      "description": ""
     }
   ],
   "teaching": [
     {
-      "course": "Signals and Systems (TA)",
-      "institution": "University of Maryland, College Park",
-      "date": "2025-01-01",
-      "role": "Teaching Assistant",
-      "description": "Led discussion sections, wrote and graded problem sets, held office hours for undergraduate engineering students."
+      "course": "Teaching experience 1",
+      "institution": "University 1, Department",
+      "date": "2014-01-01",
+      "role": "Undergraduate course",
+      "description": ""
+    },
+    {
+      "course": "Teaching experience 2",
+      "institution": "University 1, Department",
+      "date": "2015-01-01",
+      "role": "Workshop",
+      "description": ""
+    }
+  ],
+  "portfolio": [
+    {
+      "name": "Portfolio item number 1",
+      "category": "portfolio",
+      "date": "",
+      "url": "",
+      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
     }
   ]
 }
