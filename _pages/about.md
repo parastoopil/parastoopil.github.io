@@ -18,5 +18,5 @@ Broadly, my goal is to bridge model understanding, algorithm design, and efficie
 ## Publications
 
 **Recti-Q: Feature-Space Rectification for OOD-Robust Quantized Perception in Edge Robotics**<br>
-H. Yaghoubi\*, P. Pilevar\*, M. Lin. (IROS 2026.)<br>
+H. Yaghoubi\*, P. Pilevar\*, M. Lin (IROS 2026).<br>
 <p style="margin-left: 2em;">Identifies and quantifies the OOD robustness gap introduced by 4-bit PTQ in large vision backbones on resource-constrained robotic platforms, and proposes a frozen-backbone LoRA adapter trained on source data only that preserves PTQ memory savings while closing most of the robustness gap.</p>
