@@ -11,4 +11,4 @@ citation: 'H. Yaghoubi*, P. Pilevar*, M. Lin (*equal contribution). &quot;Recti-
 
 **H. Yaghoubi\*, P. Pilevar\*, M. Lin** (\*equal contribution). *IROS 2026.*
 
-We identify and quantify the out-of-distribution (OOD) robustness gap introduced by 4-bit post-training quantization (PTQ) in large vision backbones deployed on resource-constrained robotic platforms. We then propose **Recti-Q**, a feature-space rectification method that trains a small frozen-backbone LoRA adapter using source-domain data only. Recti-Q preserves the memory savings of PTQ while closing most of the robustness gap under real-world sensor noise and weather corruption.
+&emsp;&emsp;We identify and quantify the out-of-distribution (OOD) robustness gap introduced by 4-bit post-training quantization (PTQ) in large vision backbones deployed on resource-constrained robotic platforms. We then propose **Recti-Q**, a feature-space rectification method that trains a small frozen-backbone LoRA adapter using source-domain data only. Recti-Q preserves the memory savings of PTQ while closing most of the robustness gap under real-world sensor noise and weather corruption.
