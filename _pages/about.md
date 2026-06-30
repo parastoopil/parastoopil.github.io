@@ -9,7 +9,11 @@ redirect_from:
 
 I'm a second year Ph.D. student in Computer Engineering at the University of Maryland, College Park, working under the supervision of Professor [Ang Li](https://www.ang-li.com/) in the [CASE Lab](https://www.ang-li.com/lab/). Previously, I got my B.S. in Electrical Engineering from Sharif University of Technology.
 
-My research focuses on efficient deployment of Large Language Models (LLMs) and Vision-Language Models (VLMs) on resource-constrained devices. Specifically, I am interested in model compression techniques such as quantization and pruning to enable scalable inference while maintaining model performance. My work aims to bridge the gap between powerful foundation models and practical edge deployment, contributing to collaborative and efficient AI systems.
+My research focuses on efficient and robust foundation models. I study how architecture, data, modalities, and computational constraints shape the behavior of large models, with the goal of understanding how they can be compressed, adapted, and deployed without sacrificing their core capabilities.
+
+Building on these insights, I develop methods for model compression, quantization, robustness, and parameter-efficient adaptation, especially for multimodal systems. I am interested in making large models practical under real-world constraints such as limited memory, limited computation, distribution shifts, and deployment on edge or robotic platforms.
+
+Broadly, my goal is to bridge model understanding, algorithm design, and efficient deployment, enabling AI systems that are not only powerful, but also reliable, economical, and usable in real-world scientific and robotic applications.
 
 ## Publications
 
