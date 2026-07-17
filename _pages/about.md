@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm a second year Ph.D. student in Computer Engineering at the University of Maryland, College Park, working under the supervision of Professor [Ang Li](https://www.ang-li.com/) in the [CASE Lab](https://www.ang-li.com/lab/). Previously, I got my B.S. in Electrical Engineering from Sharif University of Technology.
+I'm a second year Ph.D. student in Electrical and Computer Engineering at the University of Maryland, College Park, working under the supervision of Professor [Ang Li](https://www.ang-li.com/) in the [CASE Lab](https://www.ang-li.com/lab/). Previously, I got my B.S. in Electrical Engineering from Sharif University of Technology.
 
 My research focuses on efficient and robust foundation models. I study how architecture, data, modalities, and computational constraints shape the behavior of large models, with the goal of understanding how they can be compressed, adapted, and deployed without sacrificing their core capabilities.
 
